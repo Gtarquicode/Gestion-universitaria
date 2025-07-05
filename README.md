@@ -1,8 +1,8 @@
-# 🎓 Sistema de Gestión Universitaria en Java
+#  Sistema de Gestión Universitaria en Java
 
 Este proyecto implementa un sistema universitario en Java para demostrar distintos tipos de **asociaciones entre clases** orientadas a objetos:
 
-🔗 **Composición**, 🧩 **Agregación**, 🤝 **Asociación** y 📎 **Dependencia**.
+**Composición**,  **Agregación**,  **Asociación** y  **Dependencia**.
 
 ---
 
@@ -33,14 +33,14 @@ src/
 
 | Relación      | Descripción |
 |---------------|-------------|
-| 🧱 **Composición** | `Universidad` contiene fuertemente a `Departamento`. Si la universidad desaparece, sus departamentos también. |
-| 🧩 **Agregación**  | `Departamento` gestiona profesores, pero estos pueden existir de forma independiente. |
-| 🔁 **Asociación bidireccional** | `Estudiante` y `Curso` están relacionados en ambos sentidos: inscripción y navegación. |
-| 📎 **Dependencia** | `Curso` usa temporalmente `GeneradorReporte` para emitir reportes, sin mantener una referencia persistente. |
+|  **Composición** | `Universidad` contiene fuertemente a `Departamento`. Si la universidad desaparece, sus departamentos también. |
+|  **Agregación**  | `Departamento` gestiona profesores, pero estos pueden existir de forma independiente. |
+|  **Asociación bidireccional** | `Estudiante` y `Curso` están relacionados en ambos sentidos: inscripción y navegación. |
+|  **Dependencia** | `Curso` usa temporalmente `GeneradorReporte` para emitir reportes, sin mantener una referencia persistente. |
 
 ---
 
-## 🧪 Ejemplo de Uso (consola)
+##  Ejemplo de Uso (consola)
 
 ```bash
 🎓 Bienvenido al sistema de gestión universitaria
