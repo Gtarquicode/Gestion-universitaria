@@ -9,13 +9,21 @@ Este proyecto implementa un sistema universitario en Java para demostrar distint
 ## 📁 Estructura del Proyecto
 
 src/
+
 └── gestionuniversitaria/
+
 ├── Universidad.java # Composición con Departamento
+
 ├── Departamento.java # Agregación con Profesor
+
 ├── Profesor.java # Asociación con Curso
+
 ├── Curso.java # Dependencia con GeneradorReporte
+
 ├── Estudiante.java # Asociación bidireccional con Curso
+
 ├── GeneradorReporte.java # Clase auxiliar para generar reportes
+
 └── Main.java # Clase principal interactiva
 
 
